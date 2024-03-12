@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'; // 确保引入了样式文件
+import './App.css'; // 
 import logo from './images/logo.png';
 import smallImage1 from './images/funtion1.jpeg';
 import smallImage2 from './images/funtion2.jpeg';
@@ -35,7 +35,7 @@ function App() {
           <div className="text-container2">
             <p>Capture: Autonomous drone aerial survey for comprehensive image and video acquisition.</p>
           </div>
-          <a href="src/play.html"> <button className="button">Initiate Drone Capture</button> </a>
+          <a href="fly_drone.py"> <button className="button">Initiate Drone Capture</button> </a>
         </div>
         <div>
           <img src={smallImage2} alt="Row 2" className="task-image" />
