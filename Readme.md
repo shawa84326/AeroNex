@@ -65,7 +65,10 @@ This Streamlit app, named "AeroNex Image Classifier," utilizes the YOLO (You Onl
 
 #### How to Run
 1. Ensure you have Python installed on your machine.
-2. Download YOLO files (yolov3.weights, yolov3.cfg, coco.names) from the official YOLO website.
+2. Download YOLO model (yolov3.weights) from the official YOLO website or you may navigate to the following link to download yolo model and move the model to AeroNex Folder.
+    ```bash
+    https://drive.google.com/file/d/19NNWe3YfcZRDj1okPX7cekwwXIHJxtpc/view?usp=sharing
+    ```
 3. Place YOLO files in the script's directory.
 4. Run the Streamlit app:
     ```bash
